@@ -1,0 +1,51 @@
+[debug] [2023-06-27T20:02:54.164Z] ----------------------------------------------------------------------
+[debug] [2023-06-27T20:02:54.176Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2023-06-27T20:02:54.178Z] CLI Version:   12.4.0
+[debug] [2023-06-27T20:02:54.178Z] Platform:      win32
+[debug] [2023-06-27T20:02:54.179Z] Node Version:  v16.13.0
+[debug] [2023-06-27T20:02:54.576Z] Time:          Tue Jun 27 2023 14:02:54 GMT-0600 (heure normale du centre nord-américain)
+[debug] [2023-06-27T20:02:54.577Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-27T20:02:54.619Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-06-27T20:02:56.500Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-06-27T20:02:56.501Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-06-27T20:02:56.725Z] AssertionError [ERR_ASSERTION]: expected value to be defined but got "undefined"
+    at new AssertionError (node:internal/assert/assertion_error:466:5)
+    at Object.assertDefined (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:379:15)
+    at Command.actionFunction [as actionFn] (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\functionsShellCommandAction.js:29:11)
+    at C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:216:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-06-27T20:04:00.886Z] ----------------------------------------------------------------------
+[debug] [2023-06-27T20:04:00.890Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2023-06-27T20:04:00.891Z] CLI Version:   12.4.0
+[debug] [2023-06-27T20:04:00.891Z] Platform:      win32
+[debug] [2023-06-27T20:04:00.892Z] Node Version:  v16.13.0
+[debug] [2023-06-27T20:04:00.894Z] Time:          Tue Jun 27 2023 14:04:00 GMT-0600 (heure normale du centre nord-américain)
+[debug] [2023-06-27T20:04:00.894Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-27T20:04:02.393Z] AssertionError [ERR_ASSERTION]: expected value to be defined but got "undefined"
+    at new AssertionError (node:internal/assert/assertion_error:466:5)
+    at Object.assertDefined (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:379:15)
+    at Command.actionFunction [as actionFn] (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\functionsShellCommandAction.js:29:11)
+    at C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:216:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-06-27T20:15:31.022Z] ----------------------------------------------------------------------
+[debug] [2023-06-27T20:15:31.034Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2023-06-27T20:15:31.035Z] CLI Version:   12.4.0
+[debug] [2023-06-27T20:15:31.035Z] Platform:      win32
+[debug] [2023-06-27T20:15:31.036Z] Node Version:  v16.13.0
+[debug] [2023-06-27T20:15:31.091Z] Time:          Tue Jun 27 2023 14:15:31 GMT-0600 (heure normale du centre nord-américain)
+[debug] [2023-06-27T20:15:31.091Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-27T20:15:33.645Z] AssertionError [ERR_ASSERTION]: expected value to be defined but got "undefined"
+    at new AssertionError (node:internal/assert/assertion_error:466:5)
+    at Object.assertDefined (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:379:15)
+    at Command.actionFunction [as actionFn] (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\functionsShellCommandAction.js:29:11)
+    at C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:216:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: An unexpected error has occurred.

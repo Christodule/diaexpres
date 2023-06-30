@@ -10,9 +10,7 @@
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
-  "engines": {
-    "node": "16"
-  },
+
   "dependencies": {
     "@iamtraction/google-translate": "^2.0.1",
     "axios": "^0.25.0",
