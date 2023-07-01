@@ -1,6 +1,6 @@
 module.exports.AppConfig = {
     app_name: 'diaexpres', 
-    app_description: 'Your App Description Here', 
+    app_description: 'Application import export et livraison à domicile', 
     app_identifier: 'com.diaexpres.com', 
     ios_app_version: '1.0.0', 
     android_app_version: 100, 
